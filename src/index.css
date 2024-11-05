@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0
+}
+.app {
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+  height: 100vh;
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+color: white;
+}
+.app .container {
+  padding: 15px;
+  background-color: #3c404269;
+  width: 370px;
+  border: 1px solid #817c7bd7;
+  border-radius: 6px;
+  box-shadow: 0px 0px 100px 0px rgba(199, 192, 192, 0.247);
+}
+.app .container .top-section {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #817c7bd7;
+  padding-bottom: 20px;
+  margin-bottom: 20px
+}
+.app .container .top-section .city h2 {
+  margin-bottom: 7px
+}
+.app .container .top-section .city select {
+  color: white;
+  background-color: #AB5636;
+  border: none;
+  outline: none;
+  padding: 2px;
+  width: 120px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 16px
+}
+.app .container .top-section .city select option {}
+.app .container .top-section .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.app .container .top-section .date h2 {
+  margin-bottom: 9px
+}
+.app .container .top-section .date .now-date {
+  font-weight: bold;
+  font-size: 18px
+}
+.app .container .timings {}
